@@ -1,0 +1,15 @@
+[package]
+name = "cpu_tuner"
+version = "0.1.0"
+authors = ["Rosca Alex <roscaalex19@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "cpu_tuner"
+crate-type = ["rlib", "dylib"]
+
+[dependencies]
+x86 = "0.34.0"
+bitfield = "0.13.2"
